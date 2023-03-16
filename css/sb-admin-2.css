@@ -267,6 +267,11 @@ select {
   word-wrap: normal;
 }
 
+iframe {
+    display: block;
+    border-style:none;
+}
+
 button,
 [type="button"],
 [type="reset"],
